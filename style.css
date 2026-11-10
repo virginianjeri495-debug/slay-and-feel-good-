@@ -659,7 +659,7 @@ footer a:hover {
     background: linear-gradient(
         rgba(112, 38, 78, 0.75),
         rgba(112, 38, 78, 0.75)
-    ), url("images2/beauty moment.jpeg.");
+    ), url("images2/beauty moment.jpeg");
 
     background-size: cover;
     background-position: center;
