@@ -1,0 +1,1040 @@
+
+/* GENERAL WEBSITE STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF7EF;
+    color: #70264E;
+}
+
+/* HEADER */
+
+header {
+    background-color: #F8DDE5;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* MAIN CONTENT */
+
+/* NAVIGATION MENU */
+
+nav {
+   margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+nav a {
+        color: #70264E;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C6A15B;
+}
+
+
+main {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+main h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #70264E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+    
+
+   
+/* HOME BUTTON */
+
+.hero-button {
+    display: inline-block;
+    background-color: #70264E;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #f8ab1d;
+    color: white;
+}
+.hero-button {
+    background-color: red !important;
+    color: white !important;
+    padding: 20px !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+}
+
+
+/* SERVICES SECTION */
+
+#services {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F8DDE5;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#services > p {
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #FFF7EF;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+.service-card p {
+    line-height: 1.6;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* WIG SERVICES SECTION */
+
+#wig-services {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFF7EF;
+}
+
+#wig-services h2 {
+    font-size: 32px;
+    color: #70264E;
+    margin-bottom: 15px;
+}
+
+#wig-services > p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#wig-services .service-card {
+    border: 1px solid #F1D4DF;
+}
+
+#wig-services .service-card p {
+    line-height: 1.7;
+}
+
+
+/* WIG COLLECTION SECTION */
+
+#wig-collection {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F8DDE5;
+}
+
+#wig-collection h2 {
+    font-size: 32px;
+    color: #70264E;
+    margin-bottom: 15px;
+}
+
+#wig-collection > p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#wig-collection .service-card {
+    background-color: #FFF7EF;
+    border: 1px solid #E8C5D2;
+}
+
+#wig-collection .service-card p {
+    color: #C6A15B;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* WIG MAINTENANCE PRODUCTS SECTION */
+
+#wig-products {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFF7EF;
+}
+
+#wig-products h2 {
+    font-size: 32px;
+    color: #70264E;
+    margin-bottom: 15px;
+}
+
+#wig-products > p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#wig-products .service-card {
+    background-color: #F8DDE5;
+    border: 1px solid #E8C5D2;
+}
+
+#wig-products .service-card p {
+    color: #C6A15B;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* BODY CARE COLLECTION SECTION */
+
+#body-care {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F8DDE5;
+}
+
+#body-care h2 {
+    font-size: 32px;
+    color: #70264E;
+    margin-bottom: 15px;
+}
+
+#body-care > p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#body-care .service-card {
+    background-color: #FFF7EF;
+    border: 1px solid #E8C5D2;
+}
+
+#body-care .service-card p {
+    color: #C6A15B;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* GALLERY SECTION */
+
+#gallery {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFF7EF;
+}
+
+#gallery h2 {
+    font-size: 32px;
+    color: #70264E;
+    margin-bottom: 15px;
+}
+
+#gallery > p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#gallery .service-card {
+    background-color: #F8DDE5;
+    border: 1px solid #E8C5D2;
+}
+
+#gallery .service-card p {
+    line-height: 1.7;
+}
+
+
+/* GALLERY IMAGE STYLING */
+
+#gallery .service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* HORIZONTAL GALLERY CARDS */
+#gallery .service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#gallery .service-card {
+    width: 300px;
+    flex: 0 0 300px;
+}
+
+#gallery .service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+   flex-wrap: nowrap;
+    gap: 25px;
+}
+
+#gallery .service-card {
+    width: 320px;
+    flex: 0 0 320px;
+    min-width: 280px;
+}
+
+/* RESPONSIVE GALLERY */
+@media (max-width: 700px) {
+    #gallery .service-container {
+        flex-wrap: wrap;
+    }
+
+    #gallery .service-card {
+        flex: 0 1 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    #gallery .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #gallery .service-card {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+    }
+}
+
+/* CONTACT SECTION */
+#contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F8DDE5;
+}
+
+#contact h2 {
+    color: #70264E;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-container {
+    background-color: #FFF7EF;
+    max-width: 600px;
+    margin: 30px auto 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* WHATSAPP BOOKING BUTTON */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #70264E;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #C6A15B;
+    color: white;
+}
+
+/* ABOUT US SECTION */
+#about {
+    text-align: center;
+    padding: 60px 25px;
+    background-color: #FFF7EF;
+}
+
+#about h2 {
+    color: #70264E;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #70264E;
+}
+
+/* FOOTER */
+footer {
+    background-color: #70264E;
+    color: #FFF7EF;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+footer h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+footer a {
+    color: #C6A15B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* MOBILE NAVIGATION */
+.menu-toggle {
+    display: none;
+    background-color: #70264E;
+    color: #FFF7EF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+    }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-menu.active {
+        display: flex;
+    }
+
+    #nav-menu a {
+        padding: 12px;
+    }
+}
+
+
+/* BOOKING FORM */
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+#booking-form label {
+    color: #70264E;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#booking-form input,
+#booking-form select,
+#booking-form textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #C6A15B;
+    border-radius: 8px;
+    background-color: white;
+    color: #70264E;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#booking-form input:focus,
+#booking-form select:focus,
+#booking-form textarea:focus {
+    outline: 2px solid #70264E;
+    border-color: #70264E;
+}
+
+#booking-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+#booking-form button {
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    align-self: center;
+}
+
+#booking-form button:hover {
+    background-color: #C6A15B;
+    color: white;
+}
+/* WEBSITE LOGO */
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
+}
+
+
+/* IMPROVED BEAUTY GALLERY */
+
+#gallery {
+    overflow: hidden;
+}
+
+#gallery .service-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+#gallery .service-card {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#gallery .service-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    display: block;
+    background-color: #FFF7EF;
+    border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+    #gallery .service-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 550px) {
+    #gallery .service-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* GALLERY IMAGE VIEWER */
+
+.image-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 10, 25, 0.92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-viewer img {
+    max-width: 90%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: #70264E;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.close-viewer:hover {
+    background-color: #C6A15B;
+}
+
+/* HOMEPAGE HERO SECTION */
+.hero {
+    min-height: 450px;
+    background: linear-gradient(
+        rgba(112, 38, 78, 0.75),
+        rgba(112, 38, 78, 0.75)
+    ), url("images2/beauty moment.jpeg.");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    max-width: 750px;
+    color: #FFF7EF;
+}
+
+.hero-tagline {
+    color: #C6A15B;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.hero-button {
+    background-color: #C6A15B;
+    color: #70264E;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #FFF7EF;
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: #FFF7EF;
+    border: 2px solid #FFF7EF;
+}
+
+.secondary-button:hover {
+    background-color: #FFF7EF;
+    color: #70264E;
+}
+
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 30px;
+    }
+}
+
+#home .hero-button {
+    background-color: #C6A15B;
+    color: #70264E;
+    border: 2px solid #C6A15B;
+}
+
+#home .secondary-button {
+    background-color: transparent;
+    color: #FFF7EF;
+    border: 2px solid #FFF7EF;
+}
+
+/* BACK TO TOP BUTTON */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    background-color: #70264E;
+    color: #FFF7EF;
+    border: 2px solid #C6A15B;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background-color: #C6A15B;
+    color: #70264E;
+}
+
+/* BODY CARE COLLECTION */
+#body-care .service-card {
+    overflow: hidden;
+    text-align: center;
+}
+
+#body-care .service-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    background-color: #FFF7EF;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#body-care .service-card h3 {
+    color: #70264E;
+}
+
+#body-care .service-card p {
+    color: #C6A15B;
+    font-weight: bold;
+}
+
+/* WIG MAINTENANCE BANNER */
+#wig-products .collection-banner {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* WIG MAINTENANCE PRODUCTS */
+#wig-products .service-card {
+    overflow: hidden;
+    text-align: center;
+}
+
+#wig-products .service-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    background-color: #FFF7EF;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#wig-products .service-card h3 {
+    color: #70264E;
+}
+
+#wig-products .service-card p {
+    color: #C6A15B;
+    font-weight: bold;
+}
+
+/* WIG COLLECTION */
+#wig-collection .service-card {
+    overflow: hidden;
+    text-align: center;
+}
+
+#wig-collection .service-card img {
+    width: 100%;
+    height: 280px;
+     object-fit: contain;
+    background-color: #FFF7EF;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#wig-collection .service-card h3 {
+    color: #70264E;
+}
+
+#wig-collection .service-card p {
+    color: #C6A15B;
+    font-weight: bold;
+}
+
+/* FREQUENTLY ASKED QUESTIONS */
+#faqs {
+    background-color: #FFF7EF;
+    padding: 50px 8%;
+    text-align: center;
+}
+#faqs h2 {
+    color: #70264E;
+}
+
+#faqs > p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    background-color: #F8DDE5;
+    padding: 18px 22px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border-left: 5px solid #C6A15B;
+}
+
+.faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #70264E;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    display: block;
+    color: #70264E;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+/* FLOATING WHATSAPP BUTTON */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 55px;
+    height: 55px;
+    background-color: #70264E;
+    color: #FFF7EF;
+    border: 2px solid #C6A15B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-float:hover {
+    background-color: #C6A15B;
+    color: #70264E;
+}
+
+.faq-item summary::after {
+    content: "+";
+    display: inline-block;
+    color: #70264E;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+/* CUSTOMER REVIEWS */
+#reviews {
+    background-color: #F8DDE5;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+#reviews h2 {
+    color: #70264E;
+}
+
+#reviews > p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.review-container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.review-card {
+    background-color: #FFF7EF;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #C6A15B;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+    color: #70264E;
+}
+
+.review-card p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.review-button {
+    display: inline-block;
+    background-color: #70264E;
+    color: #FFF7EF;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.review-button:hover {
+    background-color: #C6A15B;
+    color: #70264E;
+}
+
+/* BUSINESS INFORMATION */
+#business-info {
+    background-color: #FFF7EF;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+#business-info h2 {
+    color: #70264E;
+}
+
+#business-info > p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.info-card {
+    background-color: #F8DDE5;
+    border-left: 5px solid #C6A15B;
+    border-radius: 12px;
+    padding: 25px;
+    flex: 1;
+    min-width: 220px;
+    max-width: 320px;
+}
+
+.info-card h3 {
+    color: #70264E;
+    margin-bottom: 12px;
+}
+
+.info-card p {
+    color: #555;
+    line-height: 1.6;
+}
